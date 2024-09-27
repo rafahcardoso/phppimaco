@@ -39,7 +39,7 @@ class Barcode
      * @param float $width
      * @return $this
      */
-    public function setWidth(float $width)
+    public function setWidth(int $width)
     {
         $this->width = $width;
         return $this;
@@ -49,7 +49,7 @@ class Barcode
      * @param float $height
      * @return $this
      */
-    public function setHeight(float $height)
+    public function setHeight(int $height)
     {
         $this->height = $height;
         return $this;
